@@ -12,6 +12,8 @@ const (
 	WASM           = "application/wasm"
 	ZIP            = "application/zip"
 	URLEncodedForm = "application/x-www-form-urlencoded"
+	ProblemJson    = "application/problem+json"
+	ProblemXml     = "application/problem+xml"
 
 	Text = "text/plain"
 	HTML = "text/html"
