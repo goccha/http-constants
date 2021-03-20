@@ -10,6 +10,7 @@ const (
 	CloudTrace    = "X-Cloud-Trace-Context"
 	JaegerBaggage = "Jaeger-Baggage"
 	UberTraceID   = "Uber-Trace-Id"
+	AwsTraceID    = "X-Amzn-Trace-Id"
 	RequestID     = "X-Request-Id"
 	TransactionID = "X-Transaction-Id"
 )
