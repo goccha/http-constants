@@ -39,7 +39,7 @@ func (fw *Forwarded) String() string {
 	builder, ok := appendString(&strings.Builder{}, false, "for", fw.For...)
 	builder, ok = appendString(builder, ok, "by", fw.By...)
 	builder, ok = appendString(builder, ok, "host", fw.Host)
-	builder, ok = appendString(builder, ok, "proto", fw.Proto)
+	builder, _ = appendString(builder, ok, "proto", fw.Proto)
 	return builder.String()
 }
 
