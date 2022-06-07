@@ -11,6 +11,7 @@ const (
 	JaegerBaggage = "Jaeger-Baggage"
 	UberTraceID   = "Uber-Trace-Id"
 	AwsTraceID    = "X-Amzn-Trace-Id"
+	AwsRequestID  = "x-amzn-RequestId"
 	RequestID     = "X-Request-Id"
 	TransactionID = "X-Transaction-Id"
 )
