@@ -15,6 +15,7 @@ const (
 	XFrameOptions                   = "X-Frame-Options"
 	XPoweredBy                      = "X-Powered-By"
 	XXSSProtection                  = "X-XSS-Protection"
+	XApiKey                         = "x-api-key"
 
 	Signature     = "Signature"
 	SignedHeaders = "Signed-Headers"
