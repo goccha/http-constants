@@ -14,6 +14,7 @@ const (
 	URLEncodedForm = "application/x-www-form-urlencoded"
 	ProblemJson    = "application/problem+json"
 	ProblemXml     = "application/problem+xml"
+	SchemaJson     = "application/schema+json"
 
 	Text = "text/plain"
 	HTML = "text/html"
